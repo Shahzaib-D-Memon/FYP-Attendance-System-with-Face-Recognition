@@ -1,0 +1,20 @@
+certifi
+chardet
+click
+cmake
+decorator
+# dlib==19.18.0 install it using: conda install -c conda-forge dlib
+face-recognition
+face-recognition-models
+idna
+imageio
+imageio-ffmpeg
+moviepy
+numpy
+opencv-python
+Pillow
+proglog
+requests
+tqdm
+urllib3
+wincertstore
