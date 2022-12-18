@@ -2,7 +2,7 @@ import pygame, sys
 from button import Button
 
 pygame.init()
-WIDTH,HEIGHT = 900,400
+WIDTH,HEIGHT = 500,400
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Face Recognition Attendance System (18CS35, 18CS15, 18CS101)")
 
