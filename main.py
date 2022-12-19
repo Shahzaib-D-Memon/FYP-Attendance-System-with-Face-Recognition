@@ -77,7 +77,7 @@ while True:
             cv2.putText(img, name, (x1 + 6, y2 - 6), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
             
 
-            first_half = datetime.now().replace(hour=9, minute=15, second=30, microsecond=0)
+            first_half = datetime.now().replace(hour=5, minute=15, second=30, microsecond=0)
             # second_half = datetime.now().replace(hour=18, minute=25, second=30, microsecond=0)
             second_half = first_half + timedelta(seconds=10)
             duration = datetime.strptime("00:00:30", '%H:%M:%S')
