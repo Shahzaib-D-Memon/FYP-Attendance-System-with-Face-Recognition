@@ -9,7 +9,7 @@ pygame.display.set_caption("Face Recognition Attendance System (18CS35, 18CS15, 
 BG = pygame.image.load("assets/Background2.jpg")
 BG = pygame.transform.scale(BG,(WIDTH,HEIGHT))
 
-Muet = pygame.image.load("assets/muet.png")
+Muet = pygame.image.load("assets/Muet.png")
 # Muet_logo = pygame.image.load("assets/muet logo.jpg")
 pygame.display.set_icon(Muet)
 Muet = pygame.transform.scale(Muet,(130,130))
