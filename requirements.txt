@@ -17,4 +17,4 @@ proglog
 requests
 tqdm
 urllib3
-wincertstore
+
