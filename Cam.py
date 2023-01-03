@@ -34,7 +34,7 @@ while True:
         break
     cv2.imshow('test',frame)
     k = cv2.waitKey(1)
-    if k%256 == 31:
+    if k%256 == 27:
         print('closing')
         break
     elif k%256 == 32:
